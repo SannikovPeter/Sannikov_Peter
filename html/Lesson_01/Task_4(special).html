@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lh {
+            line-height: 60%;
+        }
+
+        .red-text {
+            color: red;
+        }
+
+        .blue-text {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Заголовок первого уровня</h1>
+    <h3>Предварительно форматированный текст:</h3>
+    <p>
+        <code><strong>
+                x | o | <br>
+                ‐‐‐‐‐‐‐‐‐‐‐ <br>
+                &nbsp;&nbsp;| х | <br>
+                ‐‐‐‐‐‐‐‐‐‐‐ <br>
+                o | x | o</strong></code>
+    </p>
+    <hr>
+    <h3>Тег address</h3>
+    <p><em>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</em></p>
+    <hr>
+    <h3>Семантические и функциональные строчные теги</h3>
+    <p>Пожелания автора: <br>
+        <span class="red-text"><s>Данный текст убрать из монографии</s></span> и заменить его на <span
+            class="blue-text"><u>вновь
+                помещённый текст</u></span>.
+    </p>
+    <hr>
+    <h3>Работа со строчными и блоковыми цитатами</h3>
+    <p>Цитата короткая: <br>
+        <em>И всё­таки она вертится!</em>
+    </p>
+    <p>Цитата занимающая несколько предложений:</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; О сколько нам открытий чудных <br>
+        &nbsp; &nbsp; &nbsp; &nbsp; Готовят просвещенья дух <br>
+        &nbsp; &nbsp; &nbsp; &nbsp; И опыт, сын ошибок трудных, <br>
+        &nbsp; &nbsp; &nbsp; &nbsp; И гений, парадоксов друг, <br>
+        &nbsp; &nbsp; &nbsp; &nbsp; И случай, бог изобретатель...</p>
+    <hr>
+    <h3>Семантические и функциональные строчные теги</h3>
+    <p> <strong>Тэг &lt;STRONG&gt; делает данный фрагмент текста более важным.</strong> <em>Тэг &lt;em&gt; менее
+            важным.</em> В то время как теги &lt;b&gt; и &lt;i&gt; делают текст просто <strong>полужирным</strong> и
+        <em>курсивом</em> соответственно.
+    </p>
+    <hr>
+    <h3>Теги форматирования машинного языка</h3>
+    <p>При выполнении программного кода на языке PERL:</p>
+    <p>
+        <code><strong>
+                #!/usr/local/bin/perl <br>
+                print "Content‐type: text/html\n\n"; <br>
+                print "&lt;H1&gt;Hello World&lt;/H2&gt;\n";</strong></code>
+    </p>
+    <p>Программа выведет:</p>
+    <p>
+        <code><strong>
+                Hello, World!</strong></code>
+    </p>
+    <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
+    <h1>Hello, World!</h1>
+    <hr>
+    <h3>Комментарии и литералы(мнемоники) в HTML</h3>
+    <p>
+        <code><strong>
+                &lt;!‐‐ это комментарий ‐‐&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!‐‐ и это также комментарий, <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; занимающий более одной строки ‐‐&gt;</strong></code>
+    </p>
+    <hr>
+    <h3>Теги над­ и подстрочных символов</h3>
+    <h4 align="center">Магазин работает:</h4>
+    <p align="center">
+        c 08<sup><u>30</u></sup> до 18<sup><u>30</u></sup> <br>
+        обед с 13<sup><u>00</u></sup> до 14<sup><u>00</u></sup> <br>
+        выходной: <u>суббота</u>, <u>воскресенье</u> </p>
+    <hr>
+    <h3>Вот такой текст</h3>
+    <h3 class="lh">Э о &nbsp;р с о &nbsp;е ё ы&nbsp; т к т <br>
+        &nbsp; т &nbsp;п о т&nbsp; в с л &nbsp;й&nbsp; е с</h3>
+    <hr>
+    <h3>Акроним и курсив</h3>
+    <p>
+        ТФ: Y(<em>x</em>)=e<sup><em>-iπx</em></sup>+log<small><em>x</em></small>4
+    </p>
+    <hr>
+    <h3>Тег small внтури абзаца</h3>
+    <p align="right"><small>Создано при помощи блокнота©</small></p>
+</body>
+
+</html>

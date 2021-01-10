@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+        .cityName{
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption><em>Прогноз погоды</em></caption>
+        <col width="120px">
+        <col width="80px">
+        <col width="80px">
+        <col width="80px">
+        <col width="80px">
+        <tr>
+            <th>Город</th>
+            <th>Утро</th>
+            <th>День</th>
+            <th>Вечер</th>
+            <th>Ночь</th>
+        </tr>
+        <tr>
+            <td class="cityName">Минск</td>
+            <td>-5&#176;</td>
+            <td>+5&#176;</td>
+            <td rowspan="2">+2&#176;</td>
+            <td>-10&#176;</td>
+        </tr>
+        <tr>
+            <td class="cityName">Брест</td>
+            <td>0&#176;</td>
+            <td>+9&#176;</td>
+            <td>-4&#176;</td>
+        </tr>
+    </table>
+</body>
+
+</html>
