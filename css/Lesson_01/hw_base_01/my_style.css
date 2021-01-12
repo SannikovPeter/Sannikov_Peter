@@ -1,0 +1,19 @@
+.logo {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+.nav_button {
+    float: left;
+    width: 33%;
+}
+
+.svg_button {
+    width: 40px;
+    height: 40px;
+    fill: rgb(71, 74, 81);
+}
+
+.svg_button:hover {
+    fill: rgb(176, 0, 0);
+}
