@@ -1,0 +1,24 @@
+@media screen and (min-width: 800px)
+{
+    li {
+        width: 100px;
+        border: 1px solid black;
+        border-radius: 5px;
+
+        color: black;
+        background: lightgrey;
+        display: block;
+        float: left;
+        padding: 5px; 
+        position: relative;
+        text-decoration: none;
+    }
+
+    ul li ul {
+        visibility: hidden;
+        width: 100px; 
+        margin-top: 6px; 
+        left: 0; 
+    }
+
+}

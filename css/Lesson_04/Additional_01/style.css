@@ -1,0 +1,48 @@
+    p   
+    {
+    border: 1px solid lightgrey; 
+    padding: 5px ;        
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+
+    a[href^="https"]::before 
+    {
+    content: url('pic/extref.png');
+    margin-right: 2px;
+    }
+    
+    p a[href="files/document.doc"]:after,
+    li a[href="files/document.doc"]:hover:after
+    {
+    content: url('pic/logo-doc.jpg');
+    position: relative;
+    top: 3px;
+    }
+    
+    p a[href="files/document.pdf"]:after,
+    li a[href="files/document.pdf"]:hover:after
+    {
+    content: url('pic/logo-pdf.png');
+    position: relative;
+    top: 3px;
+    }
+    
+    p a[href="files/document.zip"]:after,
+    li a[href="files/document.zip"]:hover:after
+    {
+    content: url('pic/logo-zip.gif');
+    position: relative;
+    top: 3px;
+    }
+    
+    ul 
+    {
+    list-style: none;
+    }
+
+    li::before 
+    {
+    content: url('pic/logo-list.jpg');
+    margin-left: -25px;
+    }

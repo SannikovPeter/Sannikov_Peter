@@ -1,0 +1,42 @@
+li {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 5px; 
+    position: relative;
+}
+
+ul li ul {
+    visibility: hidden;
+    width: 150px; 
+    position: absolute;
+    margin-top: -6px;
+    left: 160px;
+    opacity: 0;
+    }
+
+a   {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    }
+    
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    }
+
+li:hover {
+    background: darkgrey;
+    cursor: pointer;
+    }
+
+ul li:hover > ul, ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    transition: 1s; 
+    }

@@ -1,0 +1,54 @@
+    p 
+    {
+    border: 1px solid lightgrey;
+    padding: 5px ;        
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+
+    a[href^="https"] 
+    {
+    background: url('pic/extref.png') no-repeat 1px;
+    padding-left: 13px;
+    }
+
+    p a[href="files/document.doc"]
+    {
+    background: url('pic/logo-doc.jpg') no-repeat 135px;
+    padding-right: 20px;  
+    }
+    
+    p a[href="files/document.pdf"]
+    {
+    background: url('pic/logo-pdf.png') no-repeat 100px;
+    padding-right: 20px; 
+    }
+    
+    p a[href="files/document.zip"]
+    {
+    background: url('pic/logo-zip.gif') no-repeat 45px;
+    padding-right: 20px; 
+    }
+
+    li
+    {
+    list-style-image: url('pic/logo-list.jpg'); 
+    }
+    
+    li a:hover[href="files/document.doc"]
+    {
+    background: url('pic/logo-doc.jpg') no-repeat 135px;
+    padding-right: 20px;  
+    }
+    
+    li a:hover[href="files/document.pdf"]
+    {
+    background: url('pic/logo-pdf.png') no-repeat 100px; 
+    padding-right: 20px; 
+    }
+    
+    li a:hover[href="files/document.zip"]
+    {
+    background: url('pic/logo-zip.gif') no-repeat 45px; 
+    padding-right: 20px;  
+    }
